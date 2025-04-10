@@ -1,0 +1,146 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  header{
+      background-color: #eeffe5;
+      padding:1px;
+      text-align: center;
+  }
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Inknut Antiqua', serif;
+      color: #2E8756;
+      font-size: 1.2rem;
+      font-weight: bolder;
+      padding-left: 5rem;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.8rem;
+      padding-right: 4rem;
+    }
+    .nav-links li a {
+      color: black;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight:700;
+    }
+    .nav-links li a:hover {
+      color: #2E8756; 
+      text-decoration: underline;
+      text-underline-offset: 8px;
+  
+    }
+    .nav-links li a.active-link {
+        color: #2E8756;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+      }
+      
+  
+  /* Default: hide toggle button on large screens */
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #2E7D32;
+    cursor: pointer;
+  }
+
+
+  .fruit-banner {
+    background-color: #FF8c79; /* Outer background (coral) */
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fruit-banner-inner {
+    background-color: #FFEcd7; /* Inner background (light cream) */
+    padding: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    max-width: 1050px;
+    width: 100%;
+  }
+  
+  .fruit-image {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .fruit-label {
+    position: absolute;
+    bottom: 80px;
+    right: 90px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF8c79;
+    letter-spacing: 1px;
+  }
+  
+
+
+
+
+
+
+
+
+  /* Footer Styling */
+  footer {
+    display:flex;
+    width:80%;
+    margin:auto;
+    margin-top: 70px;
+  justify-content: space-between;
+  }
+  
+  .column {
+    max-width: 450px;
+    
+  }
+  
+  p.columnContent{
+  font-size: 16px;
+  font-weight: 500;
+  }
+  
+  .column a {
+    text-decoration: none;
+    color: black;
+  }
+  .footerMedia{
+    display:flex;
+    width:80%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+  }
+  .leftContent span {
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+  
+  .rightContent img {
+  width:250px;
+  }
+  .leftContent img {
+  width:20px;
+  height:20px;
+  margin-top: 10px;
+  }
+  
+    
